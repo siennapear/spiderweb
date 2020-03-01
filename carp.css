@@ -1,0 +1,43 @@
+body {
+    background-color: white;
+}
+
+.head {
+    background-color: green;
+   	border-style: solid;
+    border-width: 5%;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.home {
+    background-color: lightblue;
+    width: 30%;
+    height: 25%;
+    float: left;
+    text-align: center;
+    border-style: solid;
+    border-width: 1%;
+    margin: auto;
+}
+
+.minecraft {
+    background-color: lightblue;
+    width: 30%;
+    height: 25%;
+    text-align: center;
+    border-style: solid;
+    border-width: 1%;
+    margin: auto;
+}
+
+.lego {
+    background-color: lightblue;
+    width: 30%;
+    height: 25%;
+    float: right;
+    text-align: center;
+    border-style: solid;
+    border-width: 1%;
+    margin: auto;
+}
