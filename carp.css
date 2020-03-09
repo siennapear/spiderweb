@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: white;
-    grid-template-rows: 10% 5% auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: 10% 5% auto;
     grid-template-columns: auto auto auto;
 }
 
@@ -40,20 +40,6 @@ body {
     margin-top: 2%;
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
-}
-.home-text {
-    grid-row: 2;
-    grid-column: 1;
-    color: black;
-    text-align: center;
-    margin: auto;
-    margin-top: 2%;
-}
-
 .minecraft {
     grid-row: 2;
     grid-column: 2;
@@ -65,6 +51,32 @@ body {
     margin-left: 2%;
 }
 
+.scratch {
+    grid-row: 2;
+    grid-column: 3;
+    background-color: lightblue;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+.home-text {
+    grid-row: 2;
+    grid-column: 1;
+    color: black;
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+}
+
 .minecraft-text {
     grid-row: 2;
     grid-column: 2;
@@ -74,18 +86,11 @@ body {
     margin-top: 2%;
 }
 
-.scratch {
-    grid-row: 2;
-    grid-column: 3;
-    background-color: lightblue;
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
-    margin: auto;
-    margin-top: 2%;
-}
-
 .scratch-text {
     grid-row: 2;
     grid-column: 3;
-    background-color: lightblue;
+    color: black;
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+}
